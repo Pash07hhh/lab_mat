@@ -37,7 +37,7 @@ def lamerey_plot_simplified(r, x0, num_iterations):
     x_range = np.linspace(x_min, x_max, 500)
 
     plt.figure(figsize=(8, 8))
-    plt.plot(x_range, logistic_map(r, x_range), 'k', label='$x_{n+1} = f(x_n)$')
+    plt.plot(x_range, logistic_map(r, x_range), 'k', label='$x_{n+1} = g(x_n)$')
     plt.plot(x_range, x_range, 'k--', label='$y=x$')
     plt.plot(x_coords, y_coords, 'r-', linewidth=1.5, alpha=0.7, label='Траектория (Лестница Ламерея)')
     plt.plot(x_sequence[0], 0, 'go', markersize=5, label='$x_0$')
