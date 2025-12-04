@@ -6,7 +6,7 @@ def logistic_map(r, x):
     """
     Кубическое отображение g(x_n)
     """
-    return r * x * (1 - x)
+    return r * x * (1 - x) * (2 + ч)
 
 
 def lamerey_plot_simplified(r, x0, num_iterations):
